@@ -3,15 +3,15 @@
 
 'use strict';
 
-let string = 'ollorrased';
+let palabra = 'ollorrased';
 
-let toString = function(x){
+let toString = function(string){
   let resultado = [];
 
-  for (var i = x.length - 1; i >= 0; i--) {
-    resultado += x[i];
+  for (var i = string.length - 1; i >= 0; i--) {
+    resultado += string[i];
   }
   console.log(resultado);
 }
 
-toString(string);
+toString(palabra);
