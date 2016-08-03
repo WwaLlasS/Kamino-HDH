@@ -6,10 +6,10 @@
 // Input: Cadena de caracteres almacenados en una variable
 // Outup: Arreglo con la palabra 'Desarrollo' acomodada de manera correcta
 //pseudocodigo
- var string = 'ollorrased';
- var resultado = [];
+'use strict';
+ let string = 'ollorrased';
+ let arreglo = string.split('');
 
- for (var i = string.length - 1 ; i >= 0; i--) {
-   resultado += string[i];
- }
-console.log(resultado);
+ arreglo.reverse();
+
+console.log(arreglo);
