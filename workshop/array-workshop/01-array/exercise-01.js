@@ -6,10 +6,10 @@
 
 let numeros = [1,2,3,4,5,6];
 
-function suma(x) {
+function suma(arrayNumber) {
   let resultado = 0;
-  for (var i = 0; i < x.length; i++) {
-    resultado += x[i];
+  for (var i = 0; i < arrayNumber.length; i++) {
+    resultado += arrayNumber[i];
   }
   console.log(resultado);
 }

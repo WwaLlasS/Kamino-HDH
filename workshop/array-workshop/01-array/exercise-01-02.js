@@ -11,13 +11,12 @@
 // Haz el pseudocodigo.
 // A tirar codigo...
 
+//input: arreglo de Numeros enteros
+//output: variable con la suma de esos numeros.
+// ### pseudocodigo ###
 
+'use strict';
 
-var numeros = [1,2,3,4,5,6];
-var resultado = 0;
+let numeros = [1,2,3,4,5,6].reduce(function(a, b){ return a + b; });
 
-for (var i = 0; i < numeros.length; i++) {
-    resultado += numeros[i];
-}
-
-console.log(resultado);
+console.log(numeros);
